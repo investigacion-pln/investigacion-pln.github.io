@@ -17,7 +17,7 @@ description: Website Oficial del Grupo de Investigacion de NLP Univalle
 favicon: favicon.png # Image must be in assets/images
 
 url: "https://investigacion-pln.github.io/" # the base hostname & protocol for your site
-repository: https://github.com/investigacion-pln
+
 ## Gem
 gems:
   - jekyll-paginate
