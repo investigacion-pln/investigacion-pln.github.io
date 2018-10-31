@@ -6,7 +6,7 @@
     {% for pub in site.publications %}
       <li class="post-list-item">
       	<h2 class="post-list-title">
-      		<a class="hvr-underline-from-center" href="{{ site.url }}{{ post.url }}">{{ pub.title }}</a>
+      		<a class="hvr-underline-from-center" href="{{ site.url }}{{ pub.url }}">{{ pub.title }}</a>
       	</h2>
       	<p class="post-list-description">
       		{{ pub.excerpt | strip_html | strip }}
