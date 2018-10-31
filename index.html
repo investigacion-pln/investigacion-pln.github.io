@@ -1,0 +1,42 @@
+---
+layout: default
+menu: home
+css: ['index.css', 'sidebar-popular-repo.css']
+---
+<section class="jumbotron geopattern" data-pattern-id="About Me">
+    <div class="container">
+        <div id="jumbotron-meta-info">
+            <h1>{{ site.title }}</h1>
+            <span class="meta-info">
+                <span class="mega-octicon octicon-gist-secret"></span>
+                {{ site.name }}
+            </span>
+        </div>
+    </div>
+</section>
+
+<section class="content container">
+    <div class="row">
+        <!-- Post List -->
+        <div class="col-md-7">
+            <ol class="post-list">
+				<li class="post-list-item">
+					<h2 class="post-list-title">
+						<a class="hvr-underline-from-center" href="#" >Univalle NLP</a>
+					</h2>
+					<p class="post-list-description">
+						El Grupo de procesamiento de lenguaje natural de la Universidad del Valle es un equipo integrado por profesores, estudiantes de maestria y estudiantes de pregrado que trabajan en el desarrollo de algoritmos de procesamiento del lenguaje humano.
+					</p><br /><p class="post-list-description">
+						Nuestro trabajo abarca la investigación básica en NLP tales como: el desarrollo de nuevos métodos de aprendizaje automático, Reconocimiento de entidades Nombradas, análisis sintáctico y etiquetado, análisis de sentimientos y modelos de procesamiento texto.
+					</p><br /><p class="post-list-description">
+						Un tema central de nuestra investigación es desarrollar nuevos algoritmos para el procesamiento texto.
+					</p>
+				</li>
+            </ol>
+        </div>
+        <div class="col-md-1"></div>
+        <div class="col-md-4">
+			{% include sidebar-news-nav.html %}
+        </div>
+    </div>
+</section>

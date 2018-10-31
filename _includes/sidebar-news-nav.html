@@ -1,0 +1,29 @@
+<h2 style="margin-top:30px; color:#337ab7;" class="sidebar-title">
+  <a class="hvr-underline-from-center" href="#" >Noticias Recientes</a></h2>
+<div id="post-directory-module">
+  <section class="post-directory">
+    {% for post in paginator.posts | limit: 2 %}
+      <li class="post-list-item">
+        <h4 class="post-list-title">
+          <a class="hvr-underline-from-center" href="{{ site.url }}{{ post.url }}">{{ post.title }}</a>
+        </h4>
+        <p class="post-list-description">
+          {{ post.overview }}
+        </p>
+        <p class="post-list-meta">
+          <span class="octicon octicon-calendar"></span> {{ post.date | date: "%Y/%m/%d" }}
+        </p>
+      </li>
+    {% endfor %}
+  </section>
+</div>
+
+<script type="text/javascript">
+    $(document).ready(function(){
+        $("body").tooltip({ selector: '[data-toggle=tooltip]' });
+
+        $('.geopattern').each(function(){
+            $(this).geopattern($(this).data('pattern-id'));
+        });
+    });
+</script>

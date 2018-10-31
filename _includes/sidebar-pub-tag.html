@@ -1,0 +1,38 @@
+{% assign categories_pub =  site.publications | map: 'category' | join: ','  | split: ',' | sort %}
+{% assign previousTag = "" %}
+{% assign counter = 0 %}
+<h3 class="sidebar-title">Categorias</h3>
+<div id="blog-categories">
+    <ul class="list-group">
+        {% for currentTag in categories_pub %}
+
+          {% if previousTag == "" %}
+            {% assign previousTag = currentTag %}
+          {% endif %}
+
+          {% if currentTag == previousTag %}
+            {% assign counter = counter | plus: 1 %}
+          {% else %}
+            {% assign counter = 1 %}
+            <li class="list-group-item">
+              {{ previousTag }}<span class="badge">{{ counter }}</span>
+            </li>
+          {% endif %}
+
+          {% if forloop.last %}
+              <li class="list-group-item">
+                {{ currentTag }}<span class="badge">{{ counter }}</span>
+              </li>
+          {% endif %}
+
+          {% assign previousTag = currentTag %}
+
+        {% endfor %}
+    </ul>
+
+</div>
+<script type="text/javascript">
+    $(document).ready(function(){
+        $("#blog-categories li").css('text-transform','capitalize')
+    });
+</script>

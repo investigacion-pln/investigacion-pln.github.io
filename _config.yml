@@ -1,0 +1,86 @@
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely need to edit after that.
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'jekyll serve'. If you change this file, please restart the server process.
+
+# Site settings
+title: Univalle NLP
+name: Research Group
+email: investigacion.pln@correounivalle.edu.co
+location: Cali, Valle del Cauca
+company: Universidad del Valle
+company_url: http://www.univalle.edu.co/
+github_url: https://github.com/investigacion-pln/
+description: Website Oficial del Grupo de Investigacion de NLP Univalle
+favicon: favicon.png # Image must be in assets/images
+
+url: "https://investigacion-pln.github.io/" # the base hostname & protocol for your site
+repository: https://github.com/investigacion-pln
+## Gem
+gems:
+  - jekyll-paginate
+#  - jekyll-geo-pattern
+  - rouge
+  - kramdown
+  - jekyll-github-metadata
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+lsi:         false
+excerpt_separator: "\n\n"
+
+source:      .
+destination: ./_site
+
+quiet:    false
+defaults: []
+
+kramdown:
+  input: GFM
+  #enable_coderay: true
+
+# Disque
+disque: Investigacion-pln.disqus.com
+
+# Pagination
+paginate: 10
+paginate_path: 'page:num'
+
+# Navigation
+navs:
+  -
+    href: /
+    label: Home
+
+  -
+    href: /publicaciones
+    label: Publicaciones
+
+  -
+    href: /recursos
+    label: Recursos
+
+  -
+    href: /blog
+    label: Blog
+
+  -
+    href: /cursos
+    label: Cursos
+
+# Sidebar to show popular repo
+side_bar_repo_limit: 5 # Number of repos to show
+
+# Google Analytics
+analytics :
+  provider : google
+  google :
+      tracking_id : 'UA-128101861-1'
+
+collections:
+  publications:
+    output: true
+    permalink: /:categories/:year/:month/:day/:title:output_ext
