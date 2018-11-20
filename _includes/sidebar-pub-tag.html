@@ -13,10 +13,10 @@
           {% if currentTag == previousTag %}
             {% assign counter = counter | plus: 1 %}
           {% else %}
-            {% assign counter = 1 %}
             <li class="list-group-item">
               {{ previousTag }}<span class="badge">{{ counter }}</span>
             </li>
+            {% assign counter = 1 %}
           {% endif %}
 
           {% if forloop.last %}

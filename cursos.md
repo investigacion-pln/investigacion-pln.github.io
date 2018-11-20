@@ -1,6 +1,7 @@
 ---
 layout: page
-title: About Me
-menu: about
-subtitle:   <h3>Download My CV</h3>
+title: Cursos
+subtitle: <span class="mega-octicon octicon-mortar-board"></span>&nbsp;&nbsp; Cursos NLP ofertados en Univalle
+menu: cursos
+css: ['blog-page.css']
 ---
