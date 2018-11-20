@@ -1,9 +1,9 @@
 ---
 layout: page
-title: Prototipo para el reconocimiento de entidades nombradas
-subtitle: en el idioma Español.
-category: HTM
-tags: [HTM Investigación NLP Neural Networks]
+title: Execution of Written Tasks by a Biologically-Inspired 
+subtitle: Artificial Brain.
+category: Task execution
+tags: [Hierarchical Temporal Memory HTM Investigación NLP Neural Networks]
 overview: This paper propose a model based on Named Entities Recognition, using Conditional Random Fields (CRFs) for Spanish language.
 ---
 
