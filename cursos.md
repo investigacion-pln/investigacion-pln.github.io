@@ -5,3 +5,4 @@ subtitle: <span class="mega-octicon octicon-mortar-board"></span>&nbsp;&nbsp; Cu
 menu: cursos
 css: ['blog-page.css']
 ---
+{% include cursos.html %}

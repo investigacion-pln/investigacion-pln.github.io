@@ -1,0 +1,31 @@
+<div class="row">
+    <div class="col-md-3">
+        {% include sidebar-curs-tag.html %}
+    </div>
+    <div class="col-md-9">
+      {% for cur in site.courses reversed  %}
+        <li class="post-list-item">
+            <h2 class="post-list-title">
+                <a class="hvr-underline-from-center" href="{{ site.url }}{{ cur.url }}">{{ cur.title }}</a>
+            </h2>
+            <p class="post-list-description">
+                {{ cur.overview | strip_html | strip }}
+            </p>
+            <p class="post-list-meta">
+                <span class="octicon octicon-calendar"></span> {{ cur.date | date: "%Y/%m/%d" }}
+            </p>
+        </li>
+      {% endfor %}
+    </div>
+  </div>
+  
+  <script>
+      $(document).ready(function(){
+          // Enable bootstrap tooltip
+          $("body").tooltip({ selector: '[data-toggle=tooltip]' });
+  
+          $('.geopattern').each(function(){
+              $(this).geopattern($(this).data('pattern-id'));
+          });
+      });
+  </script>

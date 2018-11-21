@@ -58,6 +58,10 @@ navs:
     label: Home
 
   -
+    href: /equipo
+    label: Equipo
+
+  -
     href: /publicaciones
     label: Publicaciones
 
@@ -84,5 +88,8 @@ analytics :
 
 collections:
   publications:
+    output: true
+    permalink: /:categories/:year/:month/:day/:title:output_ext
+  courses:
     output: true
     permalink: /:categories/:year/:month/:day/:title:output_ext
