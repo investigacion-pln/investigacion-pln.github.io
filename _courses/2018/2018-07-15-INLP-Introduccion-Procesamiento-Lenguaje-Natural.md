@@ -10,7 +10,7 @@ overview: Introducción a las principales tareas que componen el PLN y los difer
 ### Descripcion del Curso
 
 <p style='text-align: justify;'>
-El Procesamiento de Lenguaje Natural (PLN) estudia el uso de algoritmos y estructuras de datos para el procesamiento automático del lenguaje humano. Es una rama de las Ciencias de la Computación, la Inteligencia Artificial y la Lingüística Computacional, que sirve tanto para el desarrollo de aplicaciones prácticas que utilicen tecnología basada en lenguaje humano, como para el estudio de los problemas fundamentales de la lingüística teórica y las ciencias cognitivas. En este curso daremos una introducción a las principales tareas que componen el PLN, y los diferentes enfoques computacionales para encararlas. Haremos énfasis especialmente en el trabajo basado en corpus y en el uso de algoritmos de aprendizaje automático (Machine Learning). El objetivo del curso es dar a los y las estudiantes un conocimiento general del campo de PLN, y sea capaz de comprender problemas computacionales de PLN, analizarlos, proponer soluciones, implementarlas y evaluarlas.
+El Procesamiento de Lenguaje Natural (PLN) es una de las ramas más antiguas de la Inteligencia Artificial con muchas transformaciones, adecuaciones e innovaciones que le han permitido mantenerse hoy en día como un área revitalizada y fundamental en las tareas de procesamiento de texto inteligente en la Web. El PLN es hoy en día una tecnología capaz de hacer frente al lenguaje humano de manera ubicua; representado en la información de e-mails, páginas web, redes sociales, descripciones de productos, bases de datos, artículos de periódicos y científicos, entre otros. 
 </p>
 
 ### Fecha de publicación
@@ -32,13 +32,12 @@ PhD. Raúl Ernesto Gutiérrez de Piñerez Reyes
 
 ### Temario
 <ul style="margin-left:20px;">
-  <li>Análisis léxico. Tokenización. Segmentación en oraciones. Entidades Nombradas. Morfología.</li>
-  <li>Realización de POS tagging usando métodos estadísticos. Hidden Markov Models</li>
-  <li>Análisis sintáctico. Gramáticas. Métodos de parsing.</li>
-  <li>Análisis semántico. Ambigüedad. Representación de conocimiento</li>
-  <li>Recuperación de Información, Clasificación</li>
-  <li>Traducción Automática</li>
-  <li>Aplicaciones</li>
+  <li>Fundamentos de procesamiento de texto.</li>
+  <li>Representación vectorial de grandes volúmenes de palabras y documentos.</li>
+  <li>Modelamiento del lenguaje y tarea de POS tagging.</li>
+  <li>Análisis Sintáctico.</li>
+  <li>Reconocimiento de entidades nombradas y extracción de relaciones</li>
+  <li>Minería de opinión y análsisi de sentimientos</li>
 </ul>
 
 ### Textos de Referencia
