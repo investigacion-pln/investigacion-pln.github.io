@@ -32,7 +32,7 @@ PhD. Raúl Ernesto Gutiérrez de Piñerez Reyes
   <li>Probabilidad y Estadistica</li>
   <li>Redes Neuronales</li>
   <li>Machine Learning y Análisis de Datos</li>
-</ul>
+</ul> 
 
 ### Temario
 <ul style="margin-left:20px;">
