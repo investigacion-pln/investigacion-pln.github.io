@@ -2,7 +2,7 @@
 layout: page
 title: Prototipo para el reconocimiento de entidades 
 subtitle: nombradas en el idioma Español.
-category: Named Entities Recognition
+category: Named Entity Recognition
 tags: [Named Entities Recognition NER Investigación NLP]
 overview: This paper propose a model based on Named Entities Recognition, using Conditional Random Fields (CRFs) for Spanish language.
 ---

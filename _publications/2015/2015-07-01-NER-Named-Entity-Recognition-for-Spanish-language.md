@@ -2,7 +2,7 @@
 layout: page
 title: Named Entity Recognition for Spanish language
 subtitle: and applications in technology forecasting.
-category: Named Entities Recognition
+category: Named Entity Recognition
 tags: [Named Entities Recognition NER Investigación NLP]
 overview: El reconocimiento de entidades nombradas se puede ver como un modelo gráfico probabilístico que permite la representación de la independencia condicional como una secuencia de etiquetad
 ---
