@@ -77,7 +77,7 @@ navs:
     href: /cursos
     label: Cursos
 
-# Sidebar to show popular repo
+# Sidebar to show popular repo 
 side_bar_repo_limit: 5 # Number of repos to show
 
 # Google Analytics
