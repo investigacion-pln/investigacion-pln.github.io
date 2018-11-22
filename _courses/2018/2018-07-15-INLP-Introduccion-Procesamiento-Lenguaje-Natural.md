@@ -20,7 +20,7 @@ El Procesamiento de Lenguaje Natural (PLN) es una de las ramas más antiguas de 
 PhD. Raúl Ernesto Gutiérrez de Piñerez Reyes
 
 ### WebSite
-[Introduccion PLN]({{ site.url }}\750108M-II2018)
+[Introduccion PLN]({{ site.url }}750108M-II2018/)
 
 ### Prerequisitos
 <ul style="margin-left:20px;">
