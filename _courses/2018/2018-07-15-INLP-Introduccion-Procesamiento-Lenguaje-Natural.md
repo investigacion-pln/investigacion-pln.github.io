@@ -26,8 +26,8 @@ PhD. Raúl Ernesto Gutiérrez de Piñerez Reyes
 <ul style="margin-left:20px;">
   <li>Proeficiencia en Python</li>
   <li>Cálculo Diferencial e Integral</li>
+  <li>Álgebra Lineal</li>
   <li>Probabilidad y Estadistica Básica</li>
-  <li>Fundamento de Machine Learning</li>
 </ul>
 
 ### Temario

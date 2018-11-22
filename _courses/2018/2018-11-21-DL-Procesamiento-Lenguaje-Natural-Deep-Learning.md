@@ -27,10 +27,11 @@ PhD. Raúl Ernesto Gutiérrez de Piñerez Reyes
 ### Prerequisitos
 <ul style="margin-left:20px;">
   <li>Proeficiencia en Python</li>
-  <li>Proeficiencia Cálculo Diferencial e Integral</li>
-  <li>Proeficiencia Probabilidad y Estadistica</li>
-  <li>Proeficiencia Redes Neuronales</li>
-  <li>Proeficiencia Machine Learning y Análisis de Datos</li>
+  <li>Cálculo Diferencial e Integral</li>
+  <li>Álgebra Lineal</li>
+  <li>Probabilidad y Estadistica</li>
+  <li>Redes Neuronales</li>
+  <li>Machine Learning y Análisis de Datos</li>
 </ul>
 
 ### Temario
