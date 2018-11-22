@@ -2,7 +2,7 @@
 layout: page
 title: Using Probabilistic Parsers
 subtitle: to Support Salsa Music Composition.
-category: Probabilistic Parsers
+category: Syntactic Analysis
 tags: [Probabilistic Parsers Investigación NLP Neural Networks]
 overview: Train a corpus with Grupo Niche songs for generating the production rules for an induced probabilistic context-free grammar through a probabilistic parser.
 ---

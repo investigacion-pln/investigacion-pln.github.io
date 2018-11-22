@@ -2,7 +2,7 @@
 layout: page
 title: Execution of Written Tasks by a Biologically-Inspired 
 subtitle: Artificial Brain.
-category: Task execution
+category: Others
 tags: [Hierarchical Temporal Memory HTM Investigación NLP Neural Networks]
 overview: This paper propose a model based on Named Entities Recognition, using Conditional Random Fields (CRFs) for Spanish language.
 ---

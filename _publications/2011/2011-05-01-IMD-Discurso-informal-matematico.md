@@ -2,7 +2,7 @@
 layout: page
 title: Discurso informal matemático
 subtitle: Enfoques, métodos, técnicas y tendencias
-category: Informal Math. Discourse
+category: Argumentation Mining
 tags: [Informal Mathematical Discourse IMD Investigación NLP]
 overview: El Discurso Informal Matemático (DIM) se caracteriza por la mezcla entre lenguaje natural y las expresiones simbólicas matemáticas
 ---

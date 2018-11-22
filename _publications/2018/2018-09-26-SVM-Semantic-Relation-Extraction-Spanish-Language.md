@@ -2,7 +2,7 @@
 layout: page
 title: Support Vector Machines for Semantic Relation 
 subtitle: Extraction in Spanish Language.
-category: SVM
+category: Named Entity Recognition
 tags: [SVM Investigación NLP Neural Networks]
 overview: Many tasks such as semantic relation extraction, sentiment analysis, opinion mining, question answering systems and text summarization are supported by RE.
 ---

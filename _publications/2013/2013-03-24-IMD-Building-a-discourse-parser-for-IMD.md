@@ -2,7 +2,7 @@
 layout: page
 title: Building a discourse parser for IMD
 subtitle: in the context of a controlled natural language
-category: Informal Math. Discourse
+category: Argumentation Mining
 tags: [Informal Mathematical Discourse IMD Investigación NLP]
 overview: Data driven approach to identify arguments and connectives in an IMD structure within the context of Controlled Natural Language (CNL).
 ---

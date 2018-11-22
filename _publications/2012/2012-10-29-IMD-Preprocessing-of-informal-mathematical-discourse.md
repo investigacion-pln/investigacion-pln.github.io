@@ -2,7 +2,7 @@
 layout: page
 title: Preprocessing of informal mathematical discourse
 subtitle: in context of controlled natural language
-category: Informal Math. Discourse
+category: Argumentation Mining
 tags: [Informal Mathematical Discourse IMD Investigación NLP]
 overview: The preprocessing phase before the IMD structure analysis within the context of Controlled Natural Language (CNL)
 ---

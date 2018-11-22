@@ -2,7 +2,7 @@
 layout: page
 title: Informal Mathematical Discourse Parsing
 subtitle: with Conditional Random Fields
-category: Informal Math. Discourse
+category: Argumentation Mining
 tags: [Informal Mathematical Discourse IMD Investigación NLP CRF]
 overview: End-to-end discourse parser which is a sequential classifier of informal deductive argumentations (IDA) for Spanish use the CRFs.
 ---
