@@ -15,7 +15,7 @@
     <section class="container">
         <div class="repo-list row">
             {% for repo in sorted_repos %}
-              {% if repo.name != "investigacion-pln.github.io" %}
+              {% if repo.language != "HTML" %}
                 <div class="col-md-4 card text-center">
                     <div class="thumbnail">
                         <div class="card-image geopattern" data-pattern-id="{{ repo.name }}">
